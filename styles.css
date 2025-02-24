@@ -71,12 +71,17 @@ aside > img {
     border-radius: 8px;
 }
 
+aside > span {
+    margin: 5px;
+    margin-top: 10px;
+}
+
 .currStatus {
     background-color: rgb(41, 41, 41, 0.3);
     border-radius: 50px;
     text-align: center;
     margin: 5px;
-    padding: 5px;
+    padding: 7px;
     font-size: 12px;
 }
 
@@ -173,4 +178,17 @@ aside > img {
     font-size: 13px;
     margin: 0;
     padding: 0;
+}
+
+.download-btn {
+    background-color: rgb(15, 100, 215);
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 13px;
+    margin: 15px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    display: flex;
+    gap: 4px;
 }
