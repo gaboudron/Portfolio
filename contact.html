@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-me">
+                    <p>
+                        Pour me contacter, veuillez m'envoyer un message sur mon adresse mail : gaboudron@orange.fr ou bien un chatbot est disponible et pourra sans doute répondre à votre question
+                    </p>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-header">Posez-moi une question !</div>
+                    <div class="chat-messages" id="chat-messages"></div>
+                    <div class="chat-input">
+                        <input type="text" id="user-input" placeholder="Tapez une question...">
+                        <button onclick="sendMessage()">Envoyer</button>
+                    </div>
+                </div>
+                <link rel="stylesheet" href="styles.css">
+                <script src="script.js"></script>
+            </div>
+            <nav>
+                <a href="index.html" class="nav-item">
+                    <i class="fas fa-home"></i>
+                    <span>Accueil</span>
+                </a>
+                <a href="resume.html" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>CV</span>
+                </a>
+                <a href="projects.html" class="nav-item">
+                    <i class="fas fa-folder-open"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="contact.html" class="nav-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </nav>
+        </div>
+    </main>
+</body>
+</html>
