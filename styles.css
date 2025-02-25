@@ -194,9 +194,8 @@ aside > span {
 }
 
 .chat-container {
-    width: 70%;
-    height: auto;
-    min-height: 400px;
+    width: 50%;
+    height: 400px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -243,7 +242,7 @@ aside > span {
 }
 
 .contact-container {
-    width: 95%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
