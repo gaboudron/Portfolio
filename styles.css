@@ -257,3 +257,16 @@ aside > span {
     border-bottom: solid 2px;
     padding-bottom: 5px;
 }
+
+.cv-container {
+    width: 70%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cv-container img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
