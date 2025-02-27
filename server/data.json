@@ -1,0 +1,106 @@
+{
+    "identity": {
+        "name": "Gabriel Boudron",
+        "description": "Étudiant en informatique, passionné par le développement logiciel, l'intelligence artificielle et les nouvelles technologies.",
+        "location": "France"
+    },
+    "skills": [
+        {
+        "name": "Python",
+        "description": "J'utilise Python pour le développement d'applications, l'analyse de données et l'intelligence artificielle. C'est mon langage de programmation principal pour mes projets."
+        },
+        {
+        "name": "Java",
+        "description": "Le langage Java est essentiel dans mes projets de développement backend. J'ai utilisé Java pour créer des applications et gérer des systèmes d'information."
+        },
+        {
+        "name": "PostgreSQL",
+        "description": "J'utilise PostgreSQL pour gérer des bases de données relationnelles dans mes projets, particulièrement pour des applications complexes."
+        },
+        {
+        "name": "C",
+        "description": "Je maîtrise le langage C, que j'ai utilisé principalement pour comprendre les bases de la programmation système et des algorithmes."
+        },
+        {
+        "name": "LaTeX",
+        "description": "Je suis à l'aise avec LaTeX pour rédiger des documents professionnels, des rapports et des présentations techniques, notamment dans le cadre de mes études."
+        },
+        {
+        "name": "Swift",
+        "description": "Je suis actuellement en train d'apprendre Swift pour développer des applications mobiles. C'est une compétence que je développe activement pour étendre mes capacités."
+        }
+    ],
+    "experiences": [
+        {
+        "title": "Employé polyvalent",
+        "company": "Leclerc Drive",
+        "description": "Préparation de commandes et livraison de clients",
+        "duration": "8 Juillet 2024 - 17 Août 2024",
+        "skills_used": ["Python", "Java"]
+        }
+    ],
+    "projects": [
+        {
+        "name": "Site web portfolio",
+        "description": "Création d'un site web personnel pour présenter mes projets et mes réalisations.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "link": "http://www.gabrielboudron.com"
+        },
+        {
+        "name": "Chatbot AI",
+        "description": "Développement d'un chatbot utilisant un modèle d'IA local (Mistral) pour répondre à des questions sur mes compétences et mes expériences.",
+        "technologies": ["Python", "Flask", "Mistral"]
+        }
+    ],
+    "education": [
+        {
+        "degree": "Licence Informatique",
+        "university": "Université Clermont Auvergne",
+        "duration": "Septembre 2022 - Présent",
+        "specialization": "Informatique"
+        },
+        {
+        "degree": "Baccalauréat Scientifique",
+        "university": "Lycée Jean Monnet - Yzeure",
+        "duration": "2019 - 2022",
+        "specialization": "Mathématiques et physique"
+        }
+    ],
+    "interests": [
+        "Programmation",
+        "Intelligence artificielle",
+        "Jeux vidéo",
+        "Volley-ball",
+        "Musique (Metalcore)"
+    ],
+    "music": {
+        "genres": ["Metalcore"],
+        "bands": [
+        "While She Sleeps",
+        "The Ghost Inside",
+        "Landmvrks",
+        "Polaris"
+        ]
+    },
+    "certifications": [
+        {
+        "title": "CLES - B2",
+        "description": "Certifie mon niveau d'anglais",
+        "date_obtained": "2024"
+        }
+    ],
+    "languages": [
+        {
+        "language": "Français",
+        "level": "Natif"
+        },
+        {
+        "language": "Anglais",
+        "level": "B2"
+        },
+        {
+        "language": "Allemand",
+        "level": "Intermédiaire"
+        }
+    ]
+}
