@@ -283,17 +283,16 @@ aside > span {
 }
 
 .projects {
-    border: solid;
+    border: solid 0.2px;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: top; 
     font-weight: bold;
-    gap: 5px;
+    gap: 8px;
 }
 
 .proj-img {
     width: 100%;
-    height: 90%; 
     overflow: hidden; 
 }
 
@@ -304,41 +303,5 @@ aside > span {
 .project-col {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-#immobilier {
-    height: ;
-}
-
-#taquin {
-    height: ;
-}
-
-#app-detente {
-    height: ;
-}
-
-#sudoku {
-    height: ;
-}
-
-#train {
-    height: ;
-}
-
-#pendu {
-    height: ;
-}
-
-#mastermind {
-    height: ;
-}
-
-#epidemie {
-    height: ;
-}
-
-#site {
-    height: ;
+    gap: 15px;
 }
