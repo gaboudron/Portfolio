@@ -386,3 +386,69 @@ aside > span {
 .modal-link:hover {
     transform: scale(1.02);
 }
+
+.competences-container {
+    background-color: rgb(41, 41, 41, 0.3);
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    padding: 25px;
+}
+
+.competence-card {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#comp-prog {
+    grid-column: span 2;
+}
+
+#comp-prog i {
+    font-size: 42px;
+}
+
+.competence-card i {
+    font-size: 30px;
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+}
+
+.competences {
+    grid-column: span 3;
+}
+
+.competences span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.competences ul {
+    list-style: none;
+    padding: 0;
+}
+
+.competences li {
+    margin-bottom: 5px;
+}
+
+.competences li span {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.competence-card:nth-child(4n+1), .competence-card:nth-child(4n+4) {
+    background-color: rgb(221, 181, 181);
+}
+
+.competence-card:nth-child(4n+2), .competence-card:nth-child(4n+3) {
+    background-color: rgb(209, 209, 247);
+}
