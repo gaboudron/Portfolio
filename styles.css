@@ -349,8 +349,8 @@ aside > span {
     text-align: center;
 }
 
-#modal-description {
-    margin-bottom: 20px;
+.modal p {
+    margin-bottom: 15px;
 }
 
 .modal-technologie {
@@ -373,4 +373,16 @@ aside > span {
     padding: 5px 10px;
     margin: 5px;
     border-radius: 15px;
+}
+
+.modal-link {
+    text-decoration: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px;
+    background-color: rgb(182, 182, 182);
+}
+.modal-link:hover {
+    transform: scale(1.02);
 }
