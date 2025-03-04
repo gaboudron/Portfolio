@@ -400,7 +400,6 @@ aside > span {
 }
 
 .competences-container {
-    background-color: rgb(41, 41, 41, 0.3);
     border-radius: 8px;
     margin: 20px;
     margin-bottom: 30px;
@@ -408,7 +407,7 @@ aside > span {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
     gap: 20px;
-    padding: 25px;
+    padding: 15px;
 }
 
 .competence-card {
@@ -417,6 +416,7 @@ aside > span {
     border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    border: solid 2px rgb(41, 41, 41, 0.3);
 }
 
 #comp-prog {
@@ -458,11 +458,11 @@ aside > span {
 }
 
 .competence-card:nth-child(4n+1), .competence-card:nth-child(4n+4) {
-    background-color: rgb(221, 181, 181);
+    background-color: rgb(236, 209, 209);
 }
 
 .competence-card:nth-child(4n+2), .competence-card:nth-child(4n+3) {
-    background-color: rgb(209, 209, 247);
+    background-color: rgb(236, 209, 209);
 }
 
 .flags {
