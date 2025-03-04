@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href=".././styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="flags">
+            <a href="../projects.html">
+                <img src="../asset/Flag_of_France.png" alt="index-fr">
+            </a>
+            <a href="projects.html">
+                <img src="../asset/Flag_of_the_United_Kingdom.png" alt="index-eng">
+            </a>
+        </div>
+        <div class="container">
+            <div class="projects-container">
+                <div class="project-col">
+                    <div class="projects" id="immobilier">
+                        <img src="../asset/img_projects/projet_immobilier.png" alt="immobilier" class="proj-img">
+                        <span>Real Estate</span> 
+                    </div>
+                    <div class="projects" id="app-detente">
+                        <img src="../asset/img_projects/app_detente.png" alt="app-detente" class="proj-img">
+                        <span>Jump height analysis</span>               
+                    </div>
+                    <div class="projects" id="epidemie">
+                        <img src="../asset/img_projects/virus_propagation.gif" alt="epidemie" class="proj-img">
+                        <span>Epidemic</span>             
+                    </div>
+                </div>
+                <div class="project-col">
+                    <div class="projects" id="sudoku">
+                        <img src="../asset/img_projects/sudoku.gif" alt="sudoku" class="proj-img">
+                        <span>Sudoku solver</span>
+                    </div>
+                    <div class="projects" id="mastermind">
+                        <img src="../asset/img_projects/mastermind.jpg" alt="mastermind" class="proj-img">
+                        <span>Mastermind</span>
+                    </div>
+                    <div class="projects" id="train">
+                        <img src="../asset/img_projects/train.png" alt="train" class="proj-img">
+                        <span>Train management</span>
+                    </div>
+                </div>
+                <div class="project-col">
+                    <div class="projects" id="site">
+                        <img src="../asset/img_projects/site.png" alt="site" class="proj-img">
+                        <span>Volley website</span>                
+                    </div>
+                    <div class="projects" id="taquin">
+                        <img src="../asset/img_projects/jeu_taquin.gif" alt="taquin" class="proj-img">
+                        <span>Sliding puzzle</span>       
+                    </div>
+                    <div class="projects" id="pendu">
+                        <img src="../asset/img_projects/pendu.png" alt="pendu" class="proj-img">
+                        <span>Hangman game</span>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html" class="nav-item">
+                    <i class="fas fa-home"></i>
+                    <span>About</span>
+                </a>
+                <a href="resume.html" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>CV</span>
+                </a>
+                <a href="projects.html" class="nav-item">
+                    <i class="fas fa-folder-open"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="contact.html" class="nav-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </nav>
+        </div>
+    </main>
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-img" src="" alt="Image du projet">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p><span>Course : </span> <span id="modal-cours"> </span></p>
+            <a id="modal-github" href="#" target="_blank">
+                <button class="modal-link">See projects</button>
+            </a>
+            <div id="techno"></div>
+        </div>
+    </div>
+</body>
+</html>
