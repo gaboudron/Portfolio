@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const projectsInfo = {
         "immobilier": {
             img: "asset/img_projects/projet_immobilier.png",
-            title: "Projet Immobilier",
+            title: "Parc Immobilier",
             description: "Un projet de gestion de parcs immobiliers. Inscription et connexion nécessaire pour accéder à son espace. Ajout et suppression d'immeubles, d'appartements, de syndicat, de locataires et de propriétaires. Statistiques sur son parc immobilier.",
             cours: "Technologie Web Serveur",
             github: "https://github.com/gaboudron/projet-immobilier",
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         "app-detente": {
             img: "asset/img_projects/app_detente.png",
-            title: "App Détente",
+            title: "Analyse détente verticale",
             description: "Une application voulue pour fonctionner sur une montre connectée Apple Watch. Elle permet de mesurer sa détente verticale en prenant en compte le temps passé en vol. La détente verticale, utile dans de nombreux sports (volley-ball, basketball, handball, etc), l'utilisateur démarre l'application au début de sa séance d'entraînement et peut lorsque celle ci fini observer ses statistiques. En cours de développement.",
             cours: "Projet personnel",
             github: "https://github.com/gaboudron/AnalyseDetente",
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         "epidemie": {
             img: "asset/img_projects/virus_propagation.gif",
-            title: "Propagation d'une Épidémie",
+            title: "Épidémie",
             description: "Simulation de propagation d'un virus dans une population donnée. Basé sur le réputé 'jeu de la vie', ce projet simule de manières aléatoires la propagation d'un virus. L'aléatoire, ou plutôt ici le pseudo-aléatoire, fonctionne grâce au générateur de nombre aléatoire de Matsumoto, le Mersenne Twister. Le nombre en fonction du temps de personnes infectées, rétablies, exposées et susceptibles est représenté sous la forme de courbes.",
             cours: "Projet Informatique - Générer l'aléatoire",
             github: "https://github.com/gaboudron/Epidemie",
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         "taquin": {
             img: "asset/img_projects/jeu_taquin.gif",
-            title: "Jeu du Taquin",
+            title: "Taquin",
             description: "Un jeu classique où il faut remettre les chiffres dans l'ordre en les glissant. La taille du plateau est personnalisable et on peut sauvegarder une partie pour la reprednre plus tard.",
             cours: "Programmation Avancée en C",
             github: "https://github.com/gaboudron/Taquin",
