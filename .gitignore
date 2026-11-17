@@ -1,2 +1,6 @@
 .DS_Store
-asset/.DS_Store
+node_modules
+dist
+.venv
+__pycache__
+*.pyc
